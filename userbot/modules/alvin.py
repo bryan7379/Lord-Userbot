@@ -438,6 +438,21 @@ async def typewriter(typew):
     await typew.edit("o aja sih")
 # Create by myself @lubego666
 
+@register(outgoing=True, pattern='^.pek(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("punten")
+    await typew.edit("salken")
+    await typew.edit("cuma mau bilang")
+    await typew.edit("gausah so asik")
+    await typew.edit("emang kenal?")
+    await typew.edit("ngaca anjing")
+    await typew.edit("jadi bocah gausah so")
+    await typew.edit("sini war")
+    await typew.edit("jamet")
+    await typew.edit("mental tempe")
+    await typew.edit("sensian maap")
+# Create by myself @lubego666
 
 @register(outgoing=True, pattern='^.b(?: |$)(.*)')
 async def typewriter(typew):
@@ -483,6 +498,8 @@ CMD_HELP.update({
     \nUsage:ya gitu.\
     \n\n`.gdl`\
     \nUsage:ga dulu maaf.\
+    \n\n.pek.\
+    \n\n:keras.\
     \n\n`.terkadang`\
     \nUsage: Auk dah iseng doang."
 })
