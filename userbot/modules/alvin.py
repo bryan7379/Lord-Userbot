@@ -409,41 +409,80 @@ async def _(event):
             await event.edit(animation_chars[i % 11])
 
 
-@register(outgoing=True, pattern='^.gombal(?: |$)(.*)')
+@register(outgoing=True, pattern='^.r(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
+    await typew.edit("`Halo`")
     sleep(1)
-    await typew.edit("`Hai, I LOVE YOU 💞`")
+    await typew.edit("`Namaku,Frisky :)`")
     sleep(1)
-    await typew.edit("`I LOVE YOU SO MUCH!`")
+    await typew.edit("`18 Tahun`")
     sleep(1)
-    await typew.edit("`I NEED YOU!`")
+    await typew.edit("`Asal Lampung,Salken :)`")
+# Create by myself @lubego666
+
+
+@register(outgoing=True, pattern='^.o(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("oo")
+    await typew.edit("ooo")
+    await typew.edit("oooo")
+    await typew.edit("ooooo")
+    await typew.edit("oooooo")
+    await typew.edit("ooooo")
+    await typew.edit("oooo")
+    await typew.edit("ooo")
+    await typew.edit("oo")
+    await typew.edit("o")
+    await typew.edit("o aja sih")
+# Create by myself @lubego666
+
+
+@register(outgoing=True, pattern='^.b(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`halo`")
     sleep(1)
-    await typew.edit("`I WANT TO BE YOUR BOYFRIEND!`")
+    await typew.edit("`Namaku,Bryan :)`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💕💗`")
+    await typew.edit("`Umur 14 Tahun`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💗💞`")
+    await typew.edit("`Asal Karawang`")
     sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💝💗`")
-    sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💟💖`")
-    sleep(1)
-    await typew.edit("`I LOVEE YOUUUU💘💓`")
-    sleep(1)
-    await typew.edit("`Tapi Bo'ong`")
-# Create by myself @localheart
+    await typew.edit("`Salken Teman`")
+# Create by myself @lubego666
+
+
+@register(outgoing=True, pattern='^.gdl(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("🤪😱😭🤣")
+    await typew.edit("😜😁😆😲")
+    await typew.edit("🤪😱😭🤣")
+    await typew.edit("😜😁😆😲")
+    await typew.edit("🤪😱😭🤣")
+    await typew.edit("😜😁😆😲")
+    await typew.edit("`oks`")
+    sleep(0.5)
+    await typew.edit("🥵")
+    sleep(2)
+    await typew.edit("`GA DULU MAAF`")
 
 CMD_HELP.update({
     "gabut":
     "`.gabut` ; `.dino`\
     \nUsage: ntahlah gabut doang.\
-    \n\n`.gombal`\
-    \nUsage: buat bercanda\
+    \n\n`.b`\
+    \nUsage: apa ini gatau.\
     \n\n`.cinta`\
     \nUsage: mengirim cintamu ke seseorang.\
     \n\n`.sayang`\
     \nUsage: untuk jadi buaya.\
+    \n\n`.o`\
+    \nUsage:ya gitu.\
+    \n\n`.gdl`\
+    \nUsage:ga dulu maaf.\
     \n\n`.terkadang`\
     \nUsage: Auk dah iseng doang."
 })
