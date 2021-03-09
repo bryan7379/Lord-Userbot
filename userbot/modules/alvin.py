@@ -438,21 +438,31 @@ async def typewriter(typew):
     await typew.edit("o aja sih")
 # Create by myself @lubego666
 
-@register(outgoing=True, pattern='^.pek(?: |$)(.*)')
+@register(outgoing=True, pattern='^.roast(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("punten")
-    await typew.edit("salken")
-    await typew.edit("cuma mau bilang")
-    await typew.edit("gausah so asik")
-    await typew.edit("emang kenal?")
-    await typew.edit("ngaca anjing")
-    await typew.edit("jadi bocah gausah so")
-    await typew.edit("sini war")
-    await typew.edit("jamet")
-    await typew.edit("mental tempe")
-    await typew.edit("sensian maap")
-# Create by myself @lubego666
+    await typew.edit("'punten")
+    sleep(1)
+    await typew.edit("'salken'")
+    sleep(1)
+    await typew.edit("'cuma mau bilang'")
+    sleep(1)
+    await typew.edit("'gausah so asik'")
+    sleep(1)
+    await typew.edit("'emang kenal?")
+    sleep(1)
+    await typew.edit("'ngaca anjing'")
+    sleep(1)
+    await typew.edit("'jadi bocah gausah so'")
+    sleep(1)
+    await typew.edit("'sini war'")
+    sleep(1)
+    await typew.edit("'jamet'")
+    sleep(1)
+    await typew.edit("'mental tempe'")
+    sleep(1)
+    await typew.edit("'anda kontol🔥")
+# Create by myself @bryan
 
 @register(outgoing=True, pattern='^.b(?: |$)(.*)')
 async def typewriter(typew):
@@ -468,11 +478,39 @@ async def typewriter(typew):
     await typew.edit("`Salken Teman`")
 # Create by myself @lubego666
 
+@register(outgoing=True, pattern='^.rpg(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("'bryan ganteng")
+    sleep(1)
+    await typew.edit("'nanda jamet'")
+    sleep(1)
+    await typew.edit("'arya monyet'")
+    sleep(1)
+    await typew.edit("'raka kntl'")
+    sleep(1)
+    await typew.edit("'cece alay?")
+    sleep(1)
+    await typew.edit("'agi babi'")
+    sleep(1)
+    await typew.edit("'araa jamet'")
+    sleep(1)
+    await typew.edit("'arsyah kontol'")
+    sleep(1)
+    await typew.edit("'tsael monyet'")
+    sleep(1)
+    await typew.edit("'bill ngontol'")
+    sleep(1)
+    await typew.edit("'ade jamet kuproy")
+    sleep(1)
+    await typew.edit("'kalian semua kontol🔥")
+    sleep(1)
+# Create by myself @bryan
 
 @register(outgoing=True, pattern='^.gdl(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("🤪😱😭🤣")
+    await typew.edit("🤔🙄😪😴")
     await typew.edit("😜😁😆😲")
     await typew.edit("🤪😱😭🤣")
     await typew.edit("😜😁😆😲")
@@ -498,8 +536,10 @@ CMD_HELP.update({
     \nUsage:ya gitu.\
     \n\n`.gdl`\
     \nUsage:ga dulu maaf.\
-    \n\n.pek.\
+    \n\n.roast.\
     \n\n:keras.\
+    \n\n.rpg.\
+    \n\n:rpg nih bos
     \n\n`.terkadang`\
     \nUsage: Auk dah iseng doang."
 })
