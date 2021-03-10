@@ -419,6 +419,16 @@ async def typewriter(typew):
     await typew.edit("`anjel stress`")
     sleep(1)
     await typew.edit("`jakila monyet`")
+    sleep(1)
+    await typew.edit("`nisa jamet`")
+    sleep(1)
+    await typew.edit("`pira anjg`")
+    sleep(1)
+    await typew.edit("`vina autis v2`")
+    sleep(1)
+    await typew.edit("`rara meki`")
+    sleep(1)
+    await typew.edit("`kalian semua kontol🐒`")
 # Create by myself @lubego666
 
 
@@ -514,7 +524,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`tsael monyet`")
     sleep(1)
-    await typew.edit("`bill ngontol`")
+    await typew.edit("`bill kontol`")
     sleep(1)
     await typew.edit("`ade jamet kuproy`")
     sleep(1) 
