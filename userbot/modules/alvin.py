@@ -412,13 +412,13 @@ async def _(event):
 @register(outgoing=True, pattern='^.r(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Halo`")
+    await typew.edit("`cipa anjg`")
     sleep(1)
-    await typew.edit("`Namaku,Frisky :)`")
+    await typew.edit("`ade autis`")
     sleep(1)
-    await typew.edit("`18 Tahun`")
+    await typew.edit("`anjel stress`")
     sleep(1)
-    await typew.edit("`Asal Lampung,Salken :)`")
+    await typew.edit("`jakila monyet`")
 # Create by myself @lubego666
 
 
