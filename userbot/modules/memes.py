@@ -1289,6 +1289,17 @@ async def moon(event):
     except BaseException:
         return
 
+@register(outgoing=True, pattern=r"^\.yam$")
+async def moon(event):
+    deq = deque(list("🥚🐣🐤🐥🐔🍗"))
+    try:
+        for x in range(35):
+            await sleep(0.1)
+            await event.edit("".join(deq))
+            deq.rotate(1)
+    except BaseException:
+        return
+
 
 @register(outgoing=True, pattern=r"^\.clock$")
 async def clock(event):
