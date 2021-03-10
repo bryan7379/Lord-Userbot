@@ -42,6 +42,22 @@ async def koc(e):
         await e.edit("༼ ༎ຶ ෴ ༎ຶ༽")
 
 
+@register(outgoing=True, pattern='^.ayam(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`\n(\\_/)`"
+                     "`\n(●_●)`"
+                     "`\n />🥚 *Tolong jagain`")
+    sleep(3)
+    await typew.edit("`\n(\\_/)`"
+                     "`\n(●_●)`"
+                     "`\n/>🐣  *Tolong urus`")
+    sleep(2)
+    await typew.edit("`\n(\\_/)`"
+                     "`\n(●_●)`"
+                     "`\n🐔<\\  *Terimakasih sudah ngurus`")
+
+
 @register(outgoing=True, pattern='^.huh(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
