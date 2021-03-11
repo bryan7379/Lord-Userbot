@@ -20,7 +20,7 @@ async def _(event):
     if reply_message.sender.bot:
         await event.edit("`Mohon Balas Ke Pesan Lord`")
         return
-    await event.edit("`Mencari ID.......`")
+    await event.edit("`Mencari ID Jamet Ini.......`")
     async with bot.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -33,7 +33,7 @@ async def _(event):
             await event.reply("`Bot Sedang Error`")
             return
         if response.text.startswith("Forward"):
-            await event.edit("`Lord Orang Ini Tidak Mempunyai ID`")
+            await event.edit("`Jamet Ini Tidak Mempunyai ID`")
         else:
             await event.edit(f"{response.message.message}")
 
