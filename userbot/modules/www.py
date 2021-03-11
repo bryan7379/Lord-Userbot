@@ -53,7 +53,7 @@ async def pingme(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**✶ Stability** "
                     f"\n  ➠ `%sms` \n"
-                    f"**✶ Si goblok** "
+                    f"**✶╰─▸@king** "
                     f"\n  ➠ `{ALIVE_NAME}` \n" % (duration))
 
 @register(outgoing=True, pattern="^.lping$")
