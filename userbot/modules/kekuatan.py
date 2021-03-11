@@ -7,7 +7,7 @@ from userbot import bot, TEMP_DOWNLOAD_DIRECTORY, CMD_HELP
 
 @register(outgoing=True, pattern=r'^.kekuatan(:? |$)([1-8])?')
 async def _(fry):
-    await fry.edit("`Bocah Goblok Mengeluarkan jurus saktinya...👾`")
+    await fry.edit("`Sedang menempelkan kotoran pada stiker...👾`")
     level = fry.pattern_match.group(2)
     if fry.fwd_from:
         return
