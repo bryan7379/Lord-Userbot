@@ -24,8 +24,8 @@ from userbot.events import register
 
 
 KANGING_STR = [
-    "Mengambil Sticker Ini Ke Pack Lord",
-    "Lord Mengambil Sticker Ini Ke Pack",
+    "Mencuri stiker jamet",
+    "Bryan mencuri stiker ini ke pack",
 ]
 
 
@@ -242,7 +242,7 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            f"**Berhasil Menambahkan Sticker Ke Pack, Tekan** **[Lord Sticker](t.me/addstickers/{packname})** **Untuk Melihat Pack Anda**",
+            f"**Berhasil mencuri stiker jamet ini ke pack🐥, Tekan** **[Lord Sticker](t.me/addstickers/{packname})** **Untuk Melihat Pack Anda**",
             parse_mode="md",
         )
 
@@ -275,7 +275,7 @@ async def resize_photo(photo):
 async def get_pack_info(event):
     if not event.is_reply:
         return await event.edit(
-            "`Mohon Balas Ke Sticker Lord`"
+            "`Balas ke stiker, bukan ke pesan tolol`"
         )
 
     rep_msg = await event.get_reply_message()
