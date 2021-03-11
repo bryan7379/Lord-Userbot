@@ -14,6 +14,16 @@ async def typewriter(typew):
     await typew.edit("`Dan yang terakhir adalah kamu bukan jodohku`")
 # Create by myself @localheart
 
+@register(outgoing=True, pattern='^.ff(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("`kalo kamu cari yang setia, aku mundur`")
+    sleep(2)
+    await typew.edit("`tapi kalo kamu cari yang kontol nya gede, aku maju`")
+    sleep(1)
+    await typew.edit("`yahaha hayyuk`")
+# Create by myself @bryan
 
 @register(outgoing=True, pattern='^.punten(?: |$)(.*)')
 async def typewriter(typew):
@@ -27,6 +37,17 @@ async def typewriter(typew):
                      "`\n┻┳T￣|`"
                      "\n**Punten**")
 
+@register(outgoing=True, pattern='^.gblk(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`\n┻┳|―-∩`"
+                     "`\n┳┻|     ヽ`"
+                     "`\n┻┳|    ¶ |`"
+                     "`\n┳┻|▼) _ノ`"
+                     "`\n┻┳|￣  )`"
+                     "`\n┳ﾐ(￣ ／`"
+                     "`\n┻┳T￣|`"
+                     "\n**'melihat kegoblokanmu'**")
 
 @register(outgoing=True, pattern='^.pantau(?: |$)(.*)')
 async def typewriter(typew):
