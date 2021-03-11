@@ -223,18 +223,18 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **┗┓LORD USERBOT┏┛** \n"
+        f" **┗┓ʙʀʏᴀɴ-ᴜsᴇʀʙᴏᴛ┏┛** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**♛ Lord** \n"
+        f"**♛ 𝕶𝖎𝖓𝖌** \n"
         f" ➥ `{DEFAULTUSER}` \n"
-        f"**♛ Username** \n"
+        f"**♛ 𝖀𝖘𝖊𝖗𝖓𝖘𝖒𝖊** \n"
         f" ➥ `@{user.username}` \n"
         f"┏━━━━━━━━━━━━━━━━━━━\n"
-        f"┣[• `Telethon :`Ver {version.__version__} \n"
-        f"┣[• `Python   :`Ver {python_version()} \n"
-        f"┣[• `Bot Ver  :`{BOT_VER} \n"
-        f"┣[• `Modules  :`{len(modules)} \n"
+        f"┣[• `𝕿𝖊𝖑𝖊𝖙𝖍𝖔𝖓 :`Ver {version.__version__} \n"
+        f"┣[• `𝕻𝖞𝖙𝖍𝖔𝖓   :`Ver {python_version()} \n"
+        f"┣[• `𝕭𝖔𝖙 𝖛𝖊𝖗 :`{BOT_VER} \n"
+        f"┣[• `𝕸𝖔𝖉𝖚𝖑𝖊𝖘  :`{len(modules)} \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
@@ -262,14 +262,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**▬▬▬▬▬▬❙۩♛۩❙▬▬▬▬▬▬**\n"
-        f"     **♕ LORD USERBOT ♕** \n\n"
-        f"❃ **Lord**     \n   ➥ `{DEFAULTUSER}` \n"
-        f"❃ **Username** \n   ➥ `@{user.username}` \n"
-        f"❃ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
-        f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
-        f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
-        f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [Lord-Userbot](https://github.com/Zora24/Lord-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Alvin](t.me/liualvinas)\n"
+        f"     **♕ ʙʀʏᴀɴ-ᴜsᴇʀʙᴏᴛ ♕** \n\n"
+        f"❃ **𝕷𝖔𝖗𝖉**     \n   ➥ `{DEFAULTUSER}` \n"
+        f"❃ **sɪ ᴊᴀᴍᴇᴛ** \n   ➥ `@{user.username}` \n"
+        f"❃ **𝕿𝖊𝖑𝖊𝖙𝖍𝖔𝖓** \n   ➥ `Versi {version.__version__}` \n"
+        f"❃ **𝕻𝖞𝖙𝖍𝖔𝖓**   \n   ➥ `Versi {python_version()}` \n"
+        f"❃ **𝕭𝖔𝖙 𝖛𝖊𝖗𝖘𝖎**\n   ➥ `{BOT_VER}` \n"
+        f"❃ **𝕸𝖔𝖉𝖚𝖑𝖊**    \n   ➥ `{len(modules)}` \n\n"
+        f"❃ ** ʀᴇᴘᴏ ᴜsᴇʀʙᴏᴛ:** [ʙʀʏᴀɴ-ᴜsᴇʀʙᴏᴛ](https://github.com/Zora24/Lord-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Alvin](t.me/liualvinas)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
@@ -296,15 +296,15 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**♕ LORD USERBOT** \n"
+        f"**♕ʙʀʏᴀɴ-ᴜsᴇʀʙᴏᴛ** \n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `Lord     :`{DEFAULTUSER} \n"
-        f"┣|• `Username :`@{user.username} \n"
-        f"┣|• `Telethon :`Ver {version.__version__} \n"
-        f"┣|• `Python   :`Ver {python_version()} \n"
-        f"┣|• `Branch   :`{UPSTREAM_REPO_BRANCH} \n"
-        f"┣|• `Bot Ver  :`{BOT_VER} \n"
-        f"┣|• `Modules  :`{len(modules)} Modules \n"
+        f"┣|• `𝕵𝖆𝖒𝖊𝖙     :`{DEFAULTUSER} \n"
+        f"┣|• `𝖀𝖘𝖊𝖗 𝖏𝖆𝖒𝖊𝖙 :`@{user.username} \n"
+        f"┣|• `𝕿𝖊𝖑𝖊𝖙𝖍𝖔𝖓   :`Ver {version.__version__} \n"
+        f"┣|• `𝕻𝖞𝖙𝖍𝖔𝖓    :`Ver {python_version()} \n"
+        f"┣|• `𝕭𝖗𝖆𝖓𝖈𝖍   :`{UPSTREAM_REPO_BRANCH} \n"
+        f"┣|• `𝕭𝖔𝖙 𝖛𝖊𝖗 :`{BOT_VER} \n"
+        f"┣|• `𝕸𝖔𝖉𝖚𝖑𝖊  :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
         f"[Repo](https://github.com/Zora24/Lord-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/liualvinas)")
     if ALIVE_LOGO:
