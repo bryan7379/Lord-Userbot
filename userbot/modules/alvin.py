@@ -598,7 +598,7 @@ CMD_HELP.update({
     \n\n`.rpg`\
     \nUsage:rpg nih bos.\
     \n\n`.sange`\
-    \nUsage:sange aku cuk
+    \nUsage:sange aku cuk.\
     \n\n`.terkadang`\
     \nUsage: Auk dah iseng doang."
 })
