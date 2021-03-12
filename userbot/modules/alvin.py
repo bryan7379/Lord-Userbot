@@ -408,27 +408,57 @@ async def _(event):
 
             await event.edit(animation_chars[i % 11])
 
+@bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
+async def _(event):
 
-@register(outgoing=True, pattern='^.r(?: |$)(.*)')
+    if event.fwd_from:
+
+        return
+
+    animation_interval = 2
+
+    animation_ttl = range(0, 11)
+
+    input_str = event.pattern_match.group(1)
+
+    if input_str == "sange":
+
+        await event.edit(input_str)
+
+        animation_chars = [
+            "`Menghubungi Warga Sange`",
+            "`Mencari Target`",
+            "`Mengirim Kesangeanku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 84%\n█████████████████████▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 100%\n█████████SANGEKU███████████ `",
+            f"`Sangeku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang Aku Sangat Sange Padamu, SANGE ANJING💞`"]
+
+        for i in animation_ttl:
+
+            await asyncio.sleep(animation_interval)
+
+            await event.edit(animation_chars[i % 11])
+
+
+@register(outgoing=True, pattern='^.sadyam(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`cipa anjg`")
-    sleep(1)
-    await typew.edit("`ade autis`")
-    sleep(1)
-    await typew.edit("`anjel stress`")
-    sleep(1)
-    await typew.edit("`jakila monyet`")
-    sleep(1)
-    await typew.edit("`nisa jamet`")
-    sleep(1)
-    await typew.edit("`pira anjg`")
-    sleep(1)
-    await typew.edit("`vina autis v2`")
-    sleep(1)
-    await typew.edit("`rara meki`")
-    sleep(1)
-    await typew.edit("`kalian semua kontol🐒`")
+    await typew.edit("`🥚`")
+    await typew.edit("`🐣`")
+    await typew.edit("`🐥`")
+    await typew.edit("`🐤`")
+    await typew.edit("`🐔`")
+    await typew.edit("`🍗`")
+    await typew.edit("`🥚🐣🐥🐤🐔🍗`")
+    sleep(2)
+    await typew.edit("`NASIB JADI AYAM`")
+    sleep(0.5)
+    await typew.edit("`Sekarang anda dapat menikmati ayam ini`")
 # Create by myself @lubego666
 
 
@@ -451,27 +481,27 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.jamet(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`punten`")
+    await typew.edit("`WOII`")
     sleep(1)
-    await typew.edit("`salken`")
+    await typew.edit("`JAMET`")
     sleep(1)
-    await typew.edit("`cuma mau bilang`")
+    await typew.edit("`CUMA MAU BILANG`")
     sleep(1)
-    await typew.edit("`gausah so asik`")
+    await typew.edit("`GAUSAH SO ASIK`")
     sleep(1)
-    await typew.edit("`emang kenal?`")
+    await typew.edit("`EMANG KENAL?`")
     sleep(1)
-    await typew.edit("`ngaca anjing`")
+    await typew.edit("`GAUSAH REPLY`")
     sleep(1)
-    await typew.edit("`jadi bocah gausah so`")
+    await typew.edit("`KITA BUKAN KAWAN`")
     sleep(1)
-    await typew.edit("`sini war`")
+    await typew.edit("`GASUKA PC ANJING`")
     sleep(1)
-    await typew.edit("`jamet`")
+    await typew.edit("`BOCAH KAMPUNG`")
     sleep(1)
-    await typew.edit("`mental tempe`")
+    await typew.edit("`MENTAL TEMPE`")
     sleep(1)
-    await typew.edit("`anda kontol🔥`")
+    await typew.edit("`LEMBEK NGENTOT🔥`")
 # Create by myself @bryan
 
 @register(outgoing=True, pattern='^.b(?: |$)(.*)')
@@ -481,54 +511,54 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Namaku,Bryan :)`")
     sleep(1)
-    await typew.edit("`Umur 14 Tahun`")
+    await typew.edit("`Umur 15 Tahun`")
     sleep(1)
-    await typew.edit("`Asal Karawang`")
+    await typew.edit("`Asal Newyork`")
     sleep(1)
-    await typew.edit("`Salken Teman`")
+    await typew.edit("`Salken Kawan`")
 # Create by myself @lubego666
 
-@register(outgoing=True, pattern='^.gjls(?: |$)(.*)')
+@register(outgoing=True, pattern='^.sadcuk(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`hmm`")
+    await typew.edit("`HMM`")
     sleep(1)
-    await typew.edit("`aku heran`")
+    await typew.edit("`AKU HERAN`")
     sleep(1)
-    await typew.edit("`kenapa`")
+    await typew.edit("`KENAPA`")
     sleep(1)
-    await typew.edit("`wajah semanis itu`")
+    await typew.edit("`WAJAH SEMANIS ITU`")
     sleep(1)
-    await typew.edit("`bisa membuat luka sepahit ini`")
+    await typew.edit("`BISA MEMBUAT LUKA SEPAHIT INI`")
     sleep(2)
 # Create by myself @lubego666
 
-@register(outgoing=True, pattern='^.rpg(?: |$)(.*)')
+@register(outgoing=True, pattern='^.scc(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`bryan ganteng`")
+    await typew.edit("`BRYAN GANTENG`")
     sleep(1)
-    await typew.edit("`nanda jamet`")
+    await typew.edit("`JULPA CANTIK`")
     sleep(1)
-    await typew.edit("`arya monyet`")
+    await typew.edit("`ARYA MENGONTOL`")
     sleep(1)
-    await typew.edit("`raka kntl`")
+    await typew.edit("`RAKA AUTIS`")
     sleep(1)
-    await typew.edit("`cece alay`")
+    await typew.edit("`VINA SINDROM`")
     sleep(1)
-    await typew.edit("`agi babi`")
+    await typew.edit("`PAPPOY STRESS`")
     sleep(1)
-    await typew.edit("`rara jamet`")
+    await typew.edit("`RARA BABU`")
     sleep(1)
-    await typew.edit("`arsyah kontol`")
+    await typew.edit("`DRIAN GAY`")
     sleep(1)
-    await typew.edit("`tsael monyet`")
+    await typew.edit("`AGUNG PLER`")
     sleep(1)
-    await typew.edit("`bill kontol`")
+    await typew.edit("`BILL MONYET`")
     sleep(1)
-    await typew.edit("`ade jamet kuproy`")
+    await typew.edit("`MAKING STRES`")
     sleep(1) 
-    await typew.edit("`kalian semua kontol🔥`")
+    await typew.edit("`KALIAN SEMUA NGENTOT🔥`")
     sleep(2)
 # Create by myself @bryan
 
@@ -567,6 +597,8 @@ CMD_HELP.update({
     \nUsage:keras.\
     \n\n`.rpg`\
     \nUsage:rpg nih bos.\
+    \n\n`.sange`\
+    \nUsage:sange aku cuk
     \n\n`.terkadang`\
     \nUsage: Auk dah iseng doang."
 })
