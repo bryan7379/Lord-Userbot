@@ -48,8 +48,8 @@ async def pingme(pong):
     start = datetime.now()
     await pong.edit("⚡")
     sleep(1)
-    await pong.edit("⚡⚡")
-    await pong.edit("⚡")
+    await pong.edit("💣")
+    await pong.edit("🚀🚀")
     sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
