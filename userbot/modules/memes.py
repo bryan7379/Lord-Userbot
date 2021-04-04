@@ -1717,6 +1717,18 @@ async def faces(siwis):
     reply_text += " " + choice(IWIS)
     await siwis.edit(reply_text)
 
+@register(outgoing=True, pattern=r"^\.thx$")
+async def gtfo(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("`\n●▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬●`"
+                     "`\n▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄`"
+                     "`\n╔══╦╗────╔╗─╔╗╔╗`"
+                     "`\n╚╗╔╣╚╦═╦═╣╚╗║╚╝╠═╦╦╗`"
+                     "`\n─║║║║║╬║║║╩║╚╗╔╣║║║║`"
+                     "`\n─╚╝╚╩╩╩╩╩╩╩╝─╚╝╚═╩═╝`"
+                     "`\n▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄`"
+                     "`\n●▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬●`")
+
 
 @register(outgoing=True, pattern="^.koc$")
 async def koc(e):
