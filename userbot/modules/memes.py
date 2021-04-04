@@ -1739,7 +1739,7 @@ async def gtfo(e):
                      "`\n╚╩╩╩╩╩═╩╩╩╩╩╝`"
                      "`\n●▬▬ஜ۩۞۩ஜ▬▬●`")
 
-@register(outgoing=True, pattern=r"^\.mlm$")
+@register(outgoing=True, pattern=r"^\.robotic$")
 async def gtfo(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\nThis is a robot`"
