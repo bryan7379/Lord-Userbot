@@ -1740,23 +1740,7 @@ async def gtfo(e):
                      "`\n╚╩╩╩╩╩═╩╩╩╩╩╝`"
                      "`\n●▬▬ஜ۩۞۩ஜ▬▬●`")
 
-@register(outgoing=True, pattern=r"^\.tivi$")
-async def gtfo(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`\n░▀▄░░▄▀`"
-                     "`\n▄▄▄██▄▄▄▄▄░▀█▀▐░▌`"
-                     "`\n█▒░▒░▒░█▀█░░█░▐░▌`"
-                     "`\n█░▒░▒░▒█▀█░░█░░█ `"
-                     "`\n█▄▄▄▄▄▄███══════ `")
-                    
-@register(outgoing=True, pattern=r"^\.buayas$")
-async def gtfo(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`\n░░░░░▄▄▄▄▄░▄░▄░▄░▄`"
-                     "`\n▄▄▄▄██▄████▀█▀█▀█▀██▄`"
-                     "`\n▀▄▀▄▀▄████▄█▄█▄█▄█████`"
-                     "`\n▒▀▀▀▀▀▀▀▀██▀▀▀▀██▀▒▄██ `"
-                     "`\n▒▒▒▒▒▒▒▒▀▀▒▒▒▒▀▀▄▄██▀▒ `")
+
 
 @register(outgoing=True, pattern=r"^\.wcdude$")
 async def gtfo(e):
