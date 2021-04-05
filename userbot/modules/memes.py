@@ -1742,22 +1742,6 @@ async def gtfo(e):
 
 
 
-@register(outgoing=True, pattern=r"^\.wcdude$")
-async def gtfo(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`\n●••▬▬▬ஜ۩۞۩ஜ▬▬••●`"
-                     "`\n──▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───`"
-                     "`\n───█▒▒░░░░░░░░░▒▒█───`"
-                     "`\n────█░░█░░░░░█░░█──── `"
-                     "`\n─▄▄──█░░░▀█▀░░░█──▄▄─ `"
-                     "`\n█░░█─▀▄░░░░░░░▄▀─█░░█ `"
-                     "`\n█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█`"
-                     "`\n█░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█`"
-                     "`\n█░░║║║╠─║─║─║║║║║║─░░█`"
-                     "`\n█░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█`"
-                     "`\n█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█`")
-                   
-
 @register(outgoing=True, pattern="^.koc$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
